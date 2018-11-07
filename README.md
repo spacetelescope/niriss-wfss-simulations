@@ -13,5 +13,7 @@ Very specific versions of the following required packages are needed in order fo
 * [webbpsf](https://github.com/mperrin/webbpsf)
 
 To ensure package compatibility, one solution is to create a separate environment for simulation work:
+
     conda env create -f jwstsim_env.yaml -n jwstsim
     source activate jwstsim
+
